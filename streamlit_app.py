@@ -14,7 +14,7 @@ preprocessor = joblib.load('end_to_end/code/full_pipeline.pkl')
 lin_reg_model = joblib.load('end_to_end/code/lin_reg_best.pkl')
 
 # interfaz del usuario
-st.title("California Housing Price Prediction - Regression")
+st.title("California Housing Price Prediction")
 
 # entradas del usuario
 longitude = st.number_input("Longitude")
