@@ -40,7 +40,7 @@ from sklearn.model_selection import GridSearchCV
 import joblib
 
 # cargar datos
-ruta = "/workspaces/blank-app/end_to_end/dataset/housing.csv"
+ruta = "end_to_end/dataset/housing.csv"
 housing = pd.read_csv (ruta)
 housing = housing.drop(columns="Unnamed: 0")
 
